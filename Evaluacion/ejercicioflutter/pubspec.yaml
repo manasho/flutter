@@ -1,0 +1,29 @@
+name: ejercicioflutter 
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependencias necesarias
+  http: ^1.1.0                # Para peticiones HTTP
+  shared_preferences: ^2.2.2  # Para guardar token localmente
+
+  # Opcionales pero recomendadas (puedes agregarlas después si quieres)
+  # provider: ^6.1.1           # Para manejo de estado
+  # flutter_secure_storage: ^9.0.0  # Guardar token de forma más segura
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
