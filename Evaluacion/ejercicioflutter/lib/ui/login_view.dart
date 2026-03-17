@@ -31,9 +31,12 @@ class _LoginViewState extends State<LoginView> {
 
     try {
       final response = await _api.login(_emailController.text, _passwordController.text);
-      final token = response['token'] ?? response['data']?['token'];
+      print('LOGIN response: $response');
+      final token = response['token'] ?? response['data']?['token'] ?? response['accessToken'] ?? response['data']?['accessToken'];
       if (token != null) {
         await AuthService.saveToken(token);
+      } else {
+        throw Exception('Token no encontrado en respuesta de login');
       }
       Navigator.pushReplacement(
         context,
@@ -41,7 +44,7 @@ class _LoginViewState extends State<LoginView> {
       );
     } catch (e) {
       setState(() {
-        _error = 'Credenciales incorrectas';
+        _error = e.toString().replaceFirst('Exception: ', '');
       });
     } finally {
       setState(() {
