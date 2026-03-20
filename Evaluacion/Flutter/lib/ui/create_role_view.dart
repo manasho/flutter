@@ -91,6 +91,7 @@ class _CreateRoleViewState extends State<CreateRoleView> {
                 text: 'Guardar rol',
                 onPressed: _createRole,
                 isLoading: _isLoading,
+                textColor: Colors.white,
               ),
             ],
           ),

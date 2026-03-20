@@ -83,6 +83,7 @@ class _LoginViewState extends State<LoginView> {
                 text: 'Ingresar',
                 onPressed: _login,
                 isLoading: _isLoading,
+                textColor: Colors.white
               ),
               SizedBox(height: 16),
               TextButton(

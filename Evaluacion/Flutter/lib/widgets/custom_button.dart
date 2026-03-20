@@ -5,11 +5,13 @@ class CustomButton extends StatelessWidget {
   final VoidCallback onPressed;
   final bool isLoading;
   final Color? color;
+  final Color? textColor;
 
   const CustomButton({
     Key? key,
     required this.text,
     required this.onPressed,
+     this.textColor,
     this.isLoading = false,
     this.color,
   }) : super(key: key);
@@ -23,6 +25,7 @@ class CustomButton extends StatelessWidget {
         onPressed: isLoading ? null : onPressed,
         style: ElevatedButton.styleFrom(
           backgroundColor: color ?? Theme.of(context).primaryColor,
+          foregroundColor: textColor ?? Colors.white,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(8),
           ),
@@ -36,7 +39,7 @@ class CustomButton extends StatelessWidget {
                   valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
                 ),
               )
-            : Text(text, style: TextStyle(fontSize: 16)),
+            : Text(text, style: TextStyle(fontSize: 16, color: textColor ?? Colors.white)),
       ),
     );
   }
