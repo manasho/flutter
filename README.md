@@ -4,12 +4,12 @@ PASOS DE IMPLEMENTACION DEL CODIGO Flutter
 
 1. Tener instalado Flutter,dart,node.js ,xampp
 2. Para clonar o descargar el repositorio 
-    <code>-Metodo HTPP
+    -Metodo HTPP
         Se dirigira al boton que esta a "code" vera una pestaña que dice "HTTPS" copeara la url que esta anexa 
-        En el escritorio de windows abrira una terminal de comandos -CMD- con click derecho, en la terminal escribira "git clone -HTTP COPEADO-" y le dara enter para clonar el repositorio desde el metodo HTTP>code<
+        En el escritorio de windows abrira una terminal de comandos -CMD- con click derecho, en la terminal escribira "git clone -HTTP COPEADO-" y le dara enter para clonar el repositorio desde el metodo HTTP
     -Metodo .zip
-        <code>Se dirigira al boton que esta a "code" vera un boton que dice Donwload Zip, esta seleccion le descargara un archivo .zip 
-        Se ubicara en descargas dentro de su windows, le dara cick derecho encima del archivoy buscara la opcion descomprimir.<code> 
+        Se dirigira al boton que esta a "code" vera un boton que dice Donwload Zip, esta seleccion le descargara un archivo .zip 
+        Se ubicara en descargas dentro de su windows, le dara cick derecho encima del archivoy buscara la opcion descomprimir.
 3. Entrar en el repositorio clonado e identificar la carpeta db.
 4. Ejecutar xampp y entrar a phpmyadmin.
 5. ir a la pestaña importar, selecionar [elegir archivo] y buscar el archivo api-crud.sql ejecutar la base de datos.
