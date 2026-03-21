@@ -4,7 +4,7 @@ PASOS DE IMPLEMENTACION DEL CODIGO Flutter
 
 1. Tener instalado Flutter,dart,node.js ,xampp
 2. Para clonar o descargar el repositorio 
-    -Metodo HTPP
+    <code>-Metodo HTPP
         Se dirigira al boton que esta a "code" vera una pestaña que dice "HTTPS" copeara la url que esta anexa 
         En el escritorio de windows abrira una terminal de comandos -CMD- con click derecho, en la terminal escribira "git clone -HTTP COPEADO-" y le dara enter para clonar el repositorio desde el metodo HTTP
     -Metodo .zip
