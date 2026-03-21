@@ -1,8 +1,8 @@
 # flutter
 
-PASOS DE IMPLEMENTACION DEL CODIGO Flutter
+<code><code>PASOS DE IMPLEMENTACION DEL CODIGO Flutter
 
-1. <code><code>Tener instalado Flutter,dart,node.js ,xampp
+1. Tener instalado Flutter,dart,node.js ,xampp
 2. Para clonar o descargar el repositorio 
     -Metodo HTPP
         Se dirigira al boton que esta a "code" vera una pestaña que dice "HTTPS" copeara la url que esta anexa 
