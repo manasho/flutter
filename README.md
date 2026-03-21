@@ -1,6 +1,7 @@
 # flutter
+<small>
+PASOS DE IMPLEMENTACION DEL CODIGO Flutter
 
-<code><code>PASOS DE IMPLEMENTACION DEL CODIGO Flutter
 1. Tener instalado Flutter,dart,node.js ,xampp
 2. Para clonar o descargar el repositorio 
     -Metodo HTPP
