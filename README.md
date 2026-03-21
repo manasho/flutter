@@ -6,7 +6,7 @@ PASOS DE IMPLEMENTACION DEL CODIGO Flutter
 2. Para clonar o descargar el repositorio 
     <code>-Metodo HTPP
         Se dirigira al boton que esta a "code" vera una pestaña que dice "HTTPS" copeara la url que esta anexa 
-        En el escritorio de windows abrira una terminal de comandos -CMD- con click derecho, en la terminal escribira "git clone -HTTP COPEADO-" y le dara enter para clonar el repositorio desde el metodo HTTP<code>
+        En el escritorio de windows abrira una terminal de comandos -CMD- con click derecho, en la terminal escribira "git clone -HTTP COPEADO-" y le dara enter para clonar el repositorio desde el metodo HTTP>code<
     -Metodo .zip
         <code>Se dirigira al boton que esta a "code" vera un boton que dice Donwload Zip, esta seleccion le descargara un archivo .zip 
         Se ubicara en descargas dentro de su windows, le dara cick derecho encima del archivoy buscara la opcion descomprimir.<code> 
